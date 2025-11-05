@@ -61,7 +61,7 @@ theme:
     repo: fontawesome/brands/github #右上角图标
     logo: logo
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/Wcowin/Mkdocs-Wcowin # 右上角点击跳转的链接
+repo_url: https://github.com/rosesheep5068/Mkdocs-Lamb- # 右上角点击跳转的链接
 repo_name: Mkdocs-Lambé # 右上角的名字
 
 # [Navigtion]
