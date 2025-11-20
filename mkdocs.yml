@@ -73,12 +73,6 @@ nav:
           - Overview: notes/tnbc/index.md
           - Data Processing: notes/tnbc/data.md
 
-      - NSCLC (Non–Small Cell Lung Cancer):
-          - Overview: notes/nsclc/index.md
-          - Data Processing: notes/nsclc/data.md
-          - Modeling: notes/nsclc/model.md
-          - Results: notes/nsclc/results.md
-
       - DM (Proteomics Analysis):
           - Overview: notes/dm/index.md
           - Data Cleaning: notes/dm/data.md
