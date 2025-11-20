@@ -75,9 +75,7 @@ nav:
 
       - DM (Proteomics Analysis):
           - Overview: notes/dm/index.md
-          - Data Cleaning: notes/dm/data.md
-          - Statistical Analysis: notes/dm/stat.md
-          - Results: notes/dm/results.md
+          - Data Processing: notes/dm/data.md
 
       - MedIR (CT Imaging & Kidney Function):
           - Overview: notes/medir_ct/index.md
