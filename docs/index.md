@@ -29,15 +29,15 @@ comments: false
 
 ## 🔍 Research Overview
 
-- **Facial Genomics** — Enhancer–TF interactions (DOCK9 / FOXC2) shaping human craniofacial features.  
-- **Single-Cell Multi-Omics** — Developmental trajectories across tissues and species (Human & Cattle).  
+- **Facial Genomics** — Enhancer–TF interactions  shaping human craniofacial features.  
+- **Single-Cell Multi-Omics** — Developmental trajectories across tissues and species (Human & Cattle & Mouse).  
 - **Medical Imaging & AI** — CT-based radiomics and deep learning for renal prognosis (ΔeGFR).
 
 ---
 
 <div class="grid cards" markdown>
 
-- :material-flask-outline:{ .lg .middle } __DOCK9–FOXC2 Regulatory Mechanism__
+- :material-flask-outline:{ .lg .middle } __Regulatory Mechanism in Craniofacial Development__
   ---
   
   SNP–enhancer functional validation and transcriptional regulation.  
@@ -49,19 +49,13 @@ comments: false
   Multi-modal deep learning framework integrating CT and clinical data.  
   [:octicons-arrow-right-24: Explore](projects/ctrc_kidney_dl.md)
 
-- :material-cow:{ .lg .middle } __Cattle Cross-Tissue Single-Cell Atlas__
-  ---
-  
-  Transcriptomic integration and cellular landscape across tissues.  
-  [:octicons-arrow-right-24: Open Notes](notes/cattle_scrna/index.md)
-
 </div>
 
 ---
 
 ## 🧰 Data & Code Resources
 
-- [scRNA-seq Integration (Scanpy + Harmony)](notes/ctrt_scrna/integration.md)  
+- [scRNA-seq Integration](notes/ctrt_scrna/integration.md)  
 - [ATAC-seq Pseudotime Analysis (SnapATAC2)](notes/cattle_scrna/integration.md)  
 - [CT Radiomics Feature Selection & LASSO](notes/medir_ct/model.md)
 

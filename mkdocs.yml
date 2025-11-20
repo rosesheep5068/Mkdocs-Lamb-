@@ -72,8 +72,6 @@ nav:
       - TNBC (Triple-Negative Breast Cancer):
           - Overview: notes/tnbc/index.md
           - Data Processing: notes/tnbc/data.md
-          - Modeling: notes/tnbc/model.md
-          - Results: notes/tnbc/results.md
 
       - NSCLC (Non–Small Cell Lung Cancer):
           - Overview: notes/nsclc/index.md
