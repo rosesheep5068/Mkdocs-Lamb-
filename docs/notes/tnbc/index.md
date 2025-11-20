@@ -26,13 +26,13 @@
 
 ### ● 基因表达差异（TNBC vs Normal）
 
-![NCOA4 Expression](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\tnbc\images\NCOA4.png)  
-![SUV39H2 Expression](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\tnbc\images\SUV39H2.png)
+![NCOA4 Expression](images/NCOA4.png)  
+![SUV39H2 Expression](images/SUV39H2.png)
 
 ### ● 生存分析：联合基因分组
 
-![FTH1-NCOA4](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\tnbc\images\NCOA4-FTH1_Sur.png)  
-![SUV39H2-NCOA4](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\tnbc\images\SUV39H2-NCOA4_Sur.png)
+![FTH1-NCOA4](images/NCOA4-FTH1_Sur.png)  
+![SUV39H2-NCOA4](images/SUV39H2-NCOA4_Sur.png)
 
 ---
 
