@@ -28,11 +28,11 @@ CTCR 全量包含 **3.2M 细胞**，在执行 BBKNN 时遇到显著内存瓶颈�
 
 ### 📌 细胞注释（八大类）
 
-![u1](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\ctrt_scrna\images\u1.png)
+![u1](./images/u1.png)
 
 ### 📌 DOCK9 全局表达（3.2M → 1M）
 
-![ex1u1](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\ctrt_scrna\images\ex1.png)
+![ex1u1](./images/ex1.png)
 
 -----
 
@@ -71,11 +71,11 @@ CTCR 全量包含 **3.2M 细胞**，在执行 BBKNN 时遇到显著内存瓶颈�
 
 ### 📌 选定三大类细胞（Epi / Stromal / Endo）的重新注释
 
-![u2u1](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\ctrt_scrna\images\u2.png)
+![u2u1](./images/u2.png)
 
 ### 📌 DOCK9 在精细亚群中的表达分布
 
-![ex2u1](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\ctrt_scrna\images\ex2.png)
+![ex2u1](./images/ex2.png)
 
 ---
 
@@ -97,6 +97,6 @@ CTCR 全量包含 **3.2M 细胞**，在执行 BBKNN 时遇到显著内存瓶颈�
 
 ### 📌 TF × Celltype 平均表达矩阵（候选 DOCK9 调控因子）
 
-![mean](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\ctrt_scrna\images\mean.png)
+![mean](./images/mean.png)
 
 ---
