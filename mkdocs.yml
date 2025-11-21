@@ -80,20 +80,20 @@ nav:
       - 🏥 MedIR (CT Imaging & Kidney Function):
           - Overview: notes/medir_ct/index.md
 
-          - 📊 Radiomics (Feature Extraction & ML):
+          -  Radiomics (Feature Extraction & ML):
               - Workflow Overview: notes/medir_ct/radiomics_overview.md
               - Feature Extraction: notes/medir_ct/radiomics_extract.md
               - Machine Learning Models: notes/medir_ct/radiomics_ml.md
               - Results & Interpretation: notes/medir_ct/radiomics_results.md
 
-          - 🧠 Deep Learning (3D CT MIL):
+          -  Deep Learning (3D CT MIL):
               - Preprocessing Pipeline: notes/medir_ct/preprocess.md
               - Shell-Layer Construction: notes/medir_ct/shell_layers.md
               - Patch Sampling (MIL Dataset): notes/medir_ct/patch_sampling.md
               - Deep Learning Model: notes/medir_ct/model.md
               - Evaluation & Interpretation: notes/medir_ct/results.md
 
-          - 🔗 Multimodal Fusion (Clinical / Pathology / 3D CT Modeling):
+          -  Multimodal Fusion (Clinical / Pathology / 3D CT Modeling):
               - Overview: notes/medir_ct/multimodal_overview.md
               - Clinical Data Integration: notes/medir_ct/multimodal_clinical.md
               - Pathology + CT Features: notes/medir_ct/multimodal_pathology.md
