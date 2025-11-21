@@ -66,7 +66,7 @@
 
 #### **UMAP — Cluster-level annotation**
 
-![cattle_cluster](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\cattle_scrna\images\u1.png)
+![cattle_cluster](./images/u1.png)
 
 ---
 
@@ -77,7 +77,7 @@
 
 #### **UMAP — DOCK9 expression**
 
-![dock9_expr](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\cattle_scrna\images\ex1.png)
+![dock9_expr](./images/ex1.png)
 
 
 
