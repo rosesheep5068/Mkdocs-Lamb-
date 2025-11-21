@@ -64,36 +64,52 @@ edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://github.com/rosesheep5068/Mkdocs-Lamb- # 右上角点击跳转的链接
 repo_name: Mkdocs-Lambé # 右上角的名字
 
-# [Navigtion]
+# [Navigation]
 nav:
   - 🏠 Home: index.md
 
-  - 📁 Research Notes:
-      - TNBC (Triple-Negative Breast Cancer):
+  - 📚 Research Notes:
+      - 🧬 TNBC (Triple-Negative Breast Cancer):
           - Overview: notes/tnbc/index.md
           - Data Processing: notes/tnbc/data.md
 
-      - DM (Proteomics Analysis):
+      - 🧪 DM (Proteomics Analysis):
           - Overview: notes/dm/index.md
           - Data Processing: notes/dm/data.md
 
-      - MedIR (CT Imaging & Kidney Function):
+      - 🏥 MedIR (CT Imaging & Kidney Function):
           - Overview: notes/medir_ct/index.md
-          - Preprocessing: notes/medir_ct/preprocess.md
-          - Deep Learning Model: notes/medir_ct/model.md
-          - Evaluation & Interpretation: notes/medir_ct/results.md
 
-      - CTRT (Human Multi-Organ scRNA-seq):
+          - 📊 Radiomics (Feature Extraction & ML):
+              - Workflow Overview: notes/medir_ct/radiomics_overview.md
+              - Feature Extraction: notes/medir_ct/radiomics_extract.md
+              - Machine Learning Models: notes/medir_ct/radiomics_ml.md
+              - Results & Interpretation: notes/medir_ct/radiomics_results.md
+
+          - 🧠 Deep Learning (3D CT MIL):
+              - Preprocessing Pipeline: notes/medir_ct/preprocess.md
+              - Shell-Layer Construction: notes/medir_ct/shell_layers.md
+              - Patch Sampling (MIL Dataset): notes/medir_ct/patch_sampling.md
+              - Deep Learning Model: notes/medir_ct/model.md
+              - Evaluation & Interpretation: notes/medir_ct/results.md
+
+          - 🔗 Multimodal Fusion (Clinical / Pathology / 3D CT Modeling):
+              - Overview: notes/medir_ct/multimodal_overview.md
+              - Clinical Data Integration: notes/medir_ct/multimodal_clinical.md
+              - Pathology + CT Features: notes/medir_ct/multimodal_pathology.md
+              - 3D Tumor Modeling (Surface Mesh / Shape Features): notes/medir_ct/multimodal_3dmodel.md
+              - Multimodal Fusion Models: notes/medir_ct/multimodal_fusion.md
+
+      - 🧫 CTRT (Human Cross-Tissue scRNA-seq):
           - Overview: notes/ctrt_scrna/index.md
-          - QC & Filtering: notes/ctrt_scrna/qc.md
-          - Clustering & Annotation: notes/ctrt_scrna/cluster.md
-          - DEGs & Pathway Enrichment: notes/ctrt_scrna/de.md
+          - TFBS Extraction: notes/ctrt_scrna/TF.md
+          - Data Processing: notes/ctrt_scrna/data.md
+          - In-Depth Analyses: notes/ctrt_scrna/de.md
 
-      - Cattle (Cross-Tissue scRNA-seq):
+      - 🐄 Cattle (Cattle Cross-Tissue scRNA-seq):
           - Overview: notes/cattle_scrna/index.md
-          - QC & Filtering: notes/cattle_scrna/qc.md
-          - Integration (BBKNN): notes/cattle_scrna/integration.md
-          - Marker Genes & Cell Types: notes/cattle_scrna/markers.md
+          - Data Processing: notes/ctrt_scrna/data.md
+          - In-Depth Analyses: notes/ctrt_scrna/de.md
 
   - 🧪 Research Projects:
       - Early Development of Micropterus salmoides: projects/black_dev.md
