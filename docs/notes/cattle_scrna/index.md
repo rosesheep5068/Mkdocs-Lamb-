@@ -1,10 +1,3 @@
-下面帮你写一个 **Cattle 项目首页 index.md**，风格、结构完全对齐你之前的 **CTCR Human 项目 Overview**，并结合你目前牛数据的两张核心图（cluster-level annotation + DOCK9 expression）。  
-内容已经包含：项目背景、数据来源、分析流程、关键图展示、你的 pipeline 对应步骤，并在适当位置加入了对你项目文件的引用（通过脚本名称而非引用符号）。
-
-你复制到 `docs/notes/cattle_scrna/index.md` 即可用。
-
----
-
 # 🐄 Cattle Cross-Tissue scRNA-seq Atlas — Overview
 
 **A multi-tissue single-cell expression atlas in cattle**（Bos taurus）提供了跨多器官的高分辨率细胞图谱，是目前牛类最系统化的单细胞资源之一。  
@@ -66,7 +59,7 @@
 
 #### **UMAP — Cluster-level annotation**
 
-![cattle_cluster](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\cattle_scrna\images\u1.png)
+![cattle_cluster](./images/u1.png)
 
 ---
 
@@ -77,7 +70,7 @@
 
 #### **UMAP — DOCK9 expression**
 
-![dock9_expr](D:\CodeCraft\MkDocs\Mkdocs-Lamb-\docs\notes\cattle_scrna\images\ex1.png)
+![dock9_expr](./images/ex1.png)
 
 
 
