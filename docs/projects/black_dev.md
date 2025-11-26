@@ -46,7 +46,7 @@
 
 - 不同发育阶段表达基因数在 3–15 dpf 逐渐增加，17/24 dpf 略有回落，提示早期器官形成与系统发育高峰期。
 
-![e1_expression](images\black-1.png)
+![](images/black-1.png)
 
 ---
 
@@ -64,7 +64,7 @@
   
   - InDel 中，可能引起移码的事件在功能层面具有潜在重要性。
 
-![e1_expression](images\black-2.png)
+![](images/black-2.png)
 
 ---
 
