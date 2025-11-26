@@ -1,7 +1,6 @@
 ---
 title: Introduction
 sidebarTitle: Welcome
-icon: hand-wave
 hide:
   - footer
   - feedback
