@@ -7,64 +7,48 @@ site_description: Content and ambitious, gentle yet firm.
 site_author: 李阳 (Lambé)
 
 # =========================================
-#   Theme
+#   Theme (完全 Prefect 风)
 # =========================================
 theme:
-  name: material
-  custom_dir: docs/overrides
+    name: material
+    custom_dir: docs/overrides
 
-  palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: 关闭自动模式
+    features:
+        - announce.dismiss
+        - content.code.copy
+        - navigation.tabs.sticky
+        - search.suggest
+        - search.highlight
+        - navigation.path
+        - navigation.indexes
+        - content.tabs.link
 
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: 切换至夜间模式
+    font:
+        text: Inter
+        code: Source Code Pro
 
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: 切换至日间模式
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: "#0225AC"
+          accent: "#0225AC"
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to dark mode
 
-  features:
-    - announce.dismiss
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.footer
-    - navigation.expand
-    - navigation.indexes
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.tabs.link
-    - content.code.copy
-    - content.code.annotate
-    - content.tooltips
-    - content.action.edit
-    - content.action.view
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: "#0225AC"
+          accent: "#0225AC"
+          toggle:
+              icon: material/weather-night
+              name: Switch to light mode
 
-  language: zh
+    logo: logo-word-white.svg
 
-  icon:
-    repo: fontawesome/brands/github
-
-edit_uri: edit/main/docs
-repo_url: https://github.com/rosesheep5068/Mkdocs-Lamb-
-repo_name: Mkdocs-Lambé
 
 # =========================================
-# Navigation
+# Navigation（保留你的目录）
 # =========================================
 nav:
   - 🏠 Home: index.md
@@ -116,6 +100,7 @@ nav:
 
   - 👤 About Me: about/about.md
 
+
 # =========================================
 # Footer
 # =========================================
@@ -129,66 +114,46 @@ extra:
     - icon: fontawesome/regular/envelope
       link: mailto:506837558@qq.com
 
+
 # =========================================
-# Plugins
+# Plugins (Prefect 的标准插件)
 # =========================================
 plugins:
-  - search
+    - search
+
 
 # =========================================
-# Markdown Extensions
+# Markdown Extensions（保持 Prefect 官方配置）
 # =========================================
 markdown_extensions:
-  - abbr
-  - attr_list
-  - admonition
-  - def_list
-  - footnotes
-  - md_in_html
-  - pymdownx.caret
-  - pymdownx.betterem
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.snippets
-  - pymdownx.smartsymbols
-  - pymdownx.tilde
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.arithmatex:
-      generic: true
-  - toc:
-      permalink: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-      linenums: true
-      auto_title: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
+    - admonition
+    - attr_list
+    - codehilite
+    - md_in_html
+    - meta
+    - pymdownx.highlight:
+          use_pygments: true
+    - pymdownx.details
+    - pymdownx.tabbed:
+          alternate_style: true
+
 
 # =========================================
-# JS & CSS
+# JavaScript & CSS（100% Prefect 栈）
 # =========================================
-extra_javascript:
-  - javascripts/extra.js
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
 extra_css:
-  - stylesheets/prefect-lite.css
-  - stylesheets/extra.css
-  - stylesheets/link.css
-  - stylesheets/customize.css
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
-  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+    - stylesheets/theme.css
+    - stylesheets/admonitions.css
+    - stylesheets/api_ref.css
+    - stylesheets/rest_ref.css
+    - stylesheets/syntax_highlights.css
+    - stylesheets/extra.css
+    - stylesheets/link.css
+    - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
+    - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+
+extra_javascript:
+    - javascripts/extra.js
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
