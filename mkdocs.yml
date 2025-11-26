@@ -186,6 +186,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
+  - stylesheets/prefect-lite.css
   - stylesheets/extra.css
   - stylesheets/link.css
   - stylesheets/customize.css
