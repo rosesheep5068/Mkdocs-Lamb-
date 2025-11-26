@@ -5,7 +5,7 @@ hide:
 comments: false
 ---
 
-<!-- ===== 动画标题 ===== -->
+<!-- ===== Title with animation ===== -->
 
 <center>
   <font class="custom-font ml3">Yang Li Research Hub</font>
@@ -15,9 +15,9 @@ comments: false
 
 <style>
 .custom-font {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 600;
-  color: #444;
+  color: #333;
   letter-spacing: 2px;
 }
 @media (max-width: 768px) {
@@ -27,65 +27,70 @@ comments: false
 
 ---
 
-## 🔍 Research Overview
+## 🔬 Research Overview
 
-- **Facial Genomics** — Enhancer–TF interactions  shaping human craniofacial features.  
-- **Single-Cell Multi-Omics** — Developmental trajectories across tissues and species (Human & Cattle & Mouse).  
-- **Medical Imaging & AI** — CT-based radiomics and deep learning for renal prognosis (ΔeGFR).
+- **Facial Genomics** — SNP → Enhancer → TF → Gene Expression → Phenotype.
+- **Single-Cell Multi-Omics** — Human / Cattle / Mouse developmental mapping.
+- **Medical Imaging & AI** — CT radiomics + deep learning for ΔeGFR prediction.
 
 ---
 
+## 🚀 Featured Projects
+
 <div class="grid cards" markdown>
 
-- :material-flask-outline:{ .lg .middle } __Regulatory Mechanism in Craniofacial Development__
-  ---
+- :material-face-recognition:{ .lg .middle } __Craniofacial Regulatory Mechanisms__
   
-  SNP–enhancer functional validation and transcriptional regulation.  
+  SNP–enhancer perturbations, TF binding, and gene regulatory logic.  
   [:octicons-arrow-right-24: View Project](projects/eye_snp.md)
 
 - :material-brain:{ .lg .middle } __MedIR Kidney Prognosis (ΔeGFR)__
-  ---
   
-  Multi-modal deep learning framework integrating CT and clinical data.  
+  Multi-modal 3D CT + clinical fusion deep learning framework.  
   [:octicons-arrow-right-24: Explore](projects/ctrc_kidney_dl.md)
+
+- :material-dna:{ .lg .middle } __Cross-Tissue Single-Cell Atlas__
+  
+  Comparative regulatory landscapes across species.  
+  [:octicons-arrow-right-24: Open](notes/ctrt_scrna/index.md)
 
 </div>
 
 ---
 
-## 🧰 Data & Code Resources
+## 📊 Data & Code Resources
 
-- [scRNA-seq Integration](notes/ctrt_scrna/integration.md)  
-- [ATAC-seq Pseudotime Analysis (SnapATAC2)](notes/cattle_scrna/integration.md)  
-- [CT Radiomics Feature Selection & LASSO](notes/medir_ct/model.md)
+- [scRNA-seq Integration Pipeline](notes/ctrt_scrna/integration.md)  
+- [ATAC-seq Pseudotime (SnapATAC2)](notes/cattle_scrna/integration.md)  
+- [Radiomics Feature Selection & LASSO](notes/medir_ct/model.md)
 
 ---
 
-## 👤 About
+## 👤 About Me
 
 **Li Yang (Lambé)**  
-College of Life Sciences, Jiangsu Normal University  
-Research collaborator at Prof. Li Xichuan’s lab, Tianjin Normal University  
+Graduate Student, College of Life Sciences, JSNU  
+Collaborator at Prof. Li Xichuan’s Lab, TJNU  
 
-📧 [506837558@qq.com](mailto:506837558@qq.com)  
+📧 506837558@qq.com  
 🌐 [GitHub](https://github.com/rosesheep5068)
 
 ---
 
-<!-- ===== 背景网格效果 ===== -->
+<!-- ===== Background grid ===== -->
 
 <style>
 body {
   position: relative;
 }
 body::before {
-  --size: 35px;
-  --line: color-mix(in hsl, canvasText, transparent 85%);
+  --size: 36px;
+  --line: color-mix(in hsl, canvasText, transparent 88%);
   content: '';
   height: 100vh;
   width: 100%;
   position: absolute;
-  background: 
+  background:
     linear-gradient(90deg, var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size),
     linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size);
   -webkit-mask: linear-gradient(-20deg, transparent 50%, white);
