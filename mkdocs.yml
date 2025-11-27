@@ -4,7 +4,7 @@
 site_name: Yang Li Research Hub
 site_url: https://rosesheep5068.github.io/Mkdocs-Lamb-/
 site_description: Content and ambitious, gentle yet firm.
-site_author: 李阳 (Lambé)
+site_author: 李阳 
 
 # =========================================
 #   Theme (完全 Prefect 风)
@@ -48,57 +48,56 @@ theme:
 
 
 # =========================================
-# Navigation（保留你的目录）
+# Navigation
 # =========================================
 nav:
-  - 🏠 Home: index.md
+  -  Home: index.md
 
-  - 📚 Research Notes:
-      - 🧬 TNBC (Triple-Negative Breast Cancer):
+  -  Genomics:
+      - TNBC (Triple-Negative Breast Cancer):
           - Overview: notes/tnbc/index.md
           - Data Processing: notes/tnbc/data.md
-
-      - 🧪 DM (Proteomics Analysis):
+      - DM (Proteomics Analysis):
           - Overview: notes/dm/index.md
           - Data Processing: notes/dm/data.md
 
-      - 🏥 MedIR (CT Imaging & Kidney Function):
-          - Overview: notes/medir_ct/index.md
-          - Radiomics:
-              - Workflow Overview: notes/medir_ct/radiomics_overview.md
-              - Feature Extraction: notes/medir_ct/radiomics_extract.md
-              - Machine Learning Models: notes/medir_ct/radiomics_ml.md
-              - Results & Interpretation: notes/medir_ct/radiomics_results.md
-          - Deep Learning (3D CT MIL):
-              - Preprocessing Pipeline: notes/medir_ct/preprocess.md
-              - Shell-Layer Construction: notes/medir_ct/shell_layers.md
-              - Patch Sampling: notes/medir_ct/patch_sampling.md
-              - Deep Learning Model: notes/medir_ct/model.md
-              - Evaluation & Interpretation: notes/medir_ct/results.md
-          - Multimodal Fusion:
-              - Overview: notes/medir_ct/multimodal_overview.md
-              - Clinical Data: notes/medir_ct/multimodal_clinical.md
-              - Pathology + CT: notes/medir_ct/multimodal_pathology.md
-              - 3D Modeling: notes/medir_ct/multimodal_3dmodel.md
-              - Fusion Models: notes/medir_ct/multimodal_fusion.md
-
-      - 🧫 CTRT (Human Cross-Tissue scRNA-seq):
+  -  Single-Cell & Multi-Omics:
+      - CTRT (Human Cross-Tissue scRNA-seq):
           - Overview: notes/ctrt_scrna/index.md
           - TFBS Extraction: notes/ctrt_scrna/TF.md
           - Data Processing: notes/ctrt_scrna/data.md
           - In-Depth Analyses: notes/ctrt_scrna/de.md
-
-      - 🐄 Cattle (Cross-Tissue scRNA-seq):
+      - Cattle (Cross-Tissue scRNA-seq):
           - Overview: notes/cattle_scrna/index.md
           - Data Processing: notes/cattle_scrna/data.md
           - In-Depth Analyses: notes/cattle_scrna/de.md
 
-  - 🧪 Research Projects:
+  -  Medical Imaging (CT | Kidney Function):
+      - Overview: notes/medir_ct/index.md
+      - Radiomics:
+          - Workflow Overview: notes/medir_ct/radiomics_overview.md
+          - Feature Extraction: notes/medir_ct/radiomics_extract.md
+          - Machine Learning Models: notes/medir_ct/radiomics_ml.md
+          - Results & Interpretation: notes/medir_ct/radiomics_results.md
+      - Deep Learning (3D CT MIL):
+          - Preprocessing Pipeline: notes/medir_ct/preprocess.md
+          - Shell-Layer Construction: notes/medir_ct/shell_layers.md
+          - Patch Sampling: notes/medir_ct/patch_sampling.md
+          - Deep Learning Model: notes/medir_ct/model.md
+          - Evaluation & Interpretation: notes/medir_ct/results.md
+      - Multimodal Fusion:
+          - Overview: notes/medir_ct/multimodal_overview.md
+          - Clinical Data: notes/medir_ct/multimodal_clinical.md
+          - Pathology + CT: notes/medir_ct/multimodal_pathology.md
+          - 3D Modeling: notes/medir_ct/multimodal_3dmodel.md
+          - Fusion Models: notes/medir_ct/multimodal_fusion.md
+
+  -  Research Projects:
       - Early Development of Micropterus salmoides: projects/black_dev.md
       - Human Eye SNPs and Cumulative Effects: projects/eye_snp.md
       - Multi-Modal Deep Learning for Kidney Prognosis: projects/ctrc_kidney_dl.md
 
-  - 👤 About Me: about/about.md
+  -  About Me: about/about.md
 
 
 # =========================================
@@ -116,14 +115,14 @@ extra:
 
 
 # =========================================
-# Plugins (Prefect 的标准插件)
+# Plugins
 # =========================================
 plugins:
     - search
 
 
 # =========================================
-# Markdown Extensions（保持 Prefect 官方配置）
+# Markdown Extensions
 # =========================================
 markdown_extensions:
     - admonition
@@ -139,21 +138,13 @@ markdown_extensions:
 
 
 # =========================================
-# JavaScript & CSS（100% Prefect 栈）
+# CSS
 # =========================================
 extra_css:
     - stylesheets/theme.css
     - stylesheets/admonitions.css
-    - stylesheets/api_ref.css
-    - stylesheets/rest_ref.css
     - stylesheets/syntax_highlights.css
     - stylesheets/extra.css
-    - stylesheets/link.css
+    - stylesheets/syntax_highlights.css
     - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
     - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-
-extra_javascript:
-    - javascripts/extra.js
-    - javascripts/mathjax.js
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
