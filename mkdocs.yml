@@ -4,147 +4,159 @@
 site_name: Yang Li Research Hub
 site_url: https://rosesheep5068.github.io/Mkdocs-Lamb-/
 site_description: Content and ambitious, gentle yet firm.
-site_author: 李阳 
+site_author: 李阳
 
 # =========================================
-#   Theme (完全 Prefect 风)
+#   Theme 
 # =========================================
 theme:
     name: material
-    custom_dir: docs/overrides
+    custom_dir: docs/theme
 
     features:
-        - announce.dismiss
         - content.code.copy
-        - navigation.tabs.sticky
+        - navigation.tabs
+        - navigation.sections        # ← 关键：让搜索框位置与 pydantic 一致
+        - navigation.instant
+        - navigation.instant.prefetch
+        - navigation.instant.progress
         - search.suggest
         - search.highlight
         - navigation.path
         - navigation.indexes
         - content.tabs.link
+        - toc.follow
 
     font:
         text: Inter
         code: Source Code Pro
 
     palette:
-        - media: "(prefers-color-scheme: light)"
-          scheme: default
-          primary: "#0225AC"
-          accent: "#0225AC"
-          toggle:
-              icon: material/weather-sunny
-              name: Switch to dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink         # ← 换成 pydantic 一样的粉红色
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 
-        - media: "(prefers-color-scheme: dark)"
-          scheme: slate
-          primary: "#0225AC"
-          accent: "#0225AC"
-          toggle:
-              icon: material/weather-night
-              name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
-    logo: logo-word-white.svg
+
+    logo: logo-sheep.svg
+
+# === GitHub 按钮（与 Pydantic 一样的右上角） ===
+repo_name: rosesheep5068/Mkdocs-Lamb-
+repo_url: https://github.com/rosesheep5068/Mkdocs-Lamb-
+edit_uri: ""    # 禁用“Edit this page”按钮（保持你的简洁风格）
 
 
 # =========================================
 # Navigation
 # =========================================
 nav:
-  -  Home: index.md
+  - Home: index.md
 
-  -  Genomics:
-      - TNBC (Triple-Negative Breast Cancer):
-          - Overview: notes/tnbc/index.md
-          - Data Processing: notes/tnbc/data.md
-      - DM (Proteomics Analysis):
-          - Overview: notes/dm/index.md
-          - Data Processing: notes/dm/data.md
+  - Research Notes:
+      - Genomics:
+          - TNBC (Triple-Negative Breast Cancer):
+              - Overview: notes/tnbc/index.md
+              - Data Processing: notes/tnbc/data.md
+          - DM (Proteomics Analysis):
+              - Overview: notes/dm/index.md
+              - Data Processing: notes/dm/data.md
 
-  -  Single-Cell & Multi-Omics:
-      - CTRT (Human Cross-Tissue scRNA-seq):
-          - Overview: notes/ctrt_scrna/index.md
-          - TFBS Extraction: notes/ctrt_scrna/TF.md
-          - Data Processing: notes/ctrt_scrna/data.md
-          - In-Depth Analyses: notes/ctrt_scrna/de.md
-      - Cattle (Cross-Tissue scRNA-seq):
-          - Overview: notes/cattle_scrna/index.md
-          - Data Processing: notes/cattle_scrna/data.md
-          - In-Depth Analyses: notes/cattle_scrna/de.md
+      - Single-Cell & Multi-Omics:
+          - CTRT (Human Cross-Tissue scRNA-seq):
+              - Overview: notes/ctrt_scrna/index.md
+              - TFBS Extraction: notes/ctrt_scrna/TF.md
+              - Data Processing: notes/ctrt_scrna/data.md
+              - In-Depth Analyses: notes/ctrt_scrna/de.md
+          - Cattle (Cross-Tissue scRNA-seq):
+              - Overview: notes/cattle_scrna/index.md
+              - Data Processing: notes/cattle_scrna/data.md
+              - In-Depth Analyses: notes/cattle_scrna/de.md
 
-  -  Medical Imaging (CT | Kidney Function):
-      - Overview: notes/medir_ct/index.md
-      - Radiomics:
-          - Workflow Overview: notes/medir_ct/radiomics_overview.md
-          - Feature Extraction: notes/medir_ct/radiomics_extract.md
-          - Machine Learning Models: notes/medir_ct/radiomics_ml.md
-          - Results & Interpretation: notes/medir_ct/radiomics_results.md
-      - Deep Learning (3D CT MIL):
-          - Preprocessing Pipeline: notes/medir_ct/preprocess.md
-          - Shell-Layer Construction: notes/medir_ct/shell_layers.md
-          - Patch Sampling: notes/medir_ct/patch_sampling.md
-          - Deep Learning Model: notes/medir_ct/model.md
-          - Evaluation & Interpretation: notes/medir_ct/results.md
-      - Multimodal Fusion:
-          - Overview: notes/medir_ct/multimodal_overview.md
-          - Clinical Data: notes/medir_ct/multimodal_clinical.md
-          - Pathology + CT: notes/medir_ct/multimodal_pathology.md
-          - 3D Modeling: notes/medir_ct/multimodal_3dmodel.md
-          - Fusion Models: notes/medir_ct/multimodal_fusion.md
+      - Medical Imaging (CT | Kidney Function):
+          - Overview: notes/medir_ct/index.md
+          - Radiomics:
+              - Workflow Overview: notes/medir_ct/radiomics_overview.md
+              - Feature Extraction: notes/medir_ct/radiomics_extract.md
+              - Machine Learning Models: notes/medir_ct/radiomics_ml.md
+              - Results & Interpretation: notes/medir_ct/radiomics_results.md
+          - Deep Learning (3D CT MIL):
+              - Preprocessing Pipeline: notes/medir_ct/preprocess.md
+              - Shell-Layer Construction: notes/medir_ct/shell_layers.md
+              - Patch Sampling: notes/medir_ct/patch_sampling.md
+              - Deep Learning Model: notes/medir_ct/model.md
+              - Evaluation & Interpretation: notes/medir_ct/results.md
+          - Multimodal Fusion:
+              - Overview: notes/medir_ct/multimodal_overview.md
+              - Clinical Data: notes/medir_ct/multimodal_clinical.md
+              - Pathology + CT: notes/medir_ct/multimodal_pathology.md
+              - 3D Modeling: notes/medir_ct/multimodal_3dmodel.md
+              - Fusion Models: notes/medir_ct/multimodal_fusion.md
 
-  -  Research Projects:
+  - Research Projects:
       - Early Development of Micropterus salmoides: projects/black_dev.md
       - Human Eye SNPs and Cumulative Effects: projects/eye_snp.md
       - Multi-Modal Deep Learning for Kidney Prognosis: projects/ctrc_kidney_dl.md
 
-  -  About Me: about/about.md
+  - About Me: about/about.md
 
 
 # =========================================
 # Footer
 # =========================================
-copyright: Copyright © 2025–2030 Lambé
-
 extra:
   generator: true
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/rosesheep5068
-    - icon: fontawesome/regular/envelope
-      link: mailto:506837558@qq.com
-
 
 # =========================================
 # Plugins
 # =========================================
 plugins:
-    - search
+  - search
 
 
 # =========================================
 # Markdown Extensions
 # =========================================
 markdown_extensions:
-    - admonition
-    - attr_list
-    - codehilite
-    - md_in_html
-    - meta
-    - pymdownx.highlight:
-          use_pygments: true
-    - pymdownx.details
-    - pymdownx.tabbed:
-          alternate_style: true
+  - admonition
+  - attr_list
+  - meta
+  - md_in_html
+  - tables
+  - toc:
+        permalink: true
+
+  # —— 代码高亮——
+  - pymdownx.highlight:
+        use_pygments: true
+        anchor_linenums: true
+  - pymdownx.superfences
+
+  # 其他增强功能
+  - pymdownx.details
+  - pymdownx.tabbed:
+        alternate_style: true
 
 
 # =========================================
-# CSS
+# CSS / JS 
 # =========================================
 extra_css:
-    - stylesheets/theme.css
-    - stylesheets/admonitions.css
-    - stylesheets/syntax_highlights.css
-    - stylesheets/extra.css
-    - stylesheets/syntax_highlights.css
-    - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
-    - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - extra/terminal.css
+  - extra/tweaks.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+
+extra_javascript:
+  - extra/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

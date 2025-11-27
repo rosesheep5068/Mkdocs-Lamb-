@@ -1,134 +1,102 @@
 ---
-title: Introduction
-sidebarTitle: Welcome
+title: Welcome
 hide:
   - footer
   - feedback
 ---
 
-# 👋 Welcome to the Yang Li Research Hub
+# Yang Li Research Hub
 
 A modern research portfolio integrating **human facial genomics**,  
 **single-cell multi-omics**, and **medical imaging AI**.
 
 ---
 
-## 🔍 Research Focus
+## Research Focus
 
-<div class="t-full-width">
+Yang Li's research explores how **non-coding variants**, **transcriptional regulation**,  
+and **multi-modal phenotyping** jointly shape human facial morphology and disease risk.
 
-| Area | Description |
-|------|-------------|
-| **Human Facial Genomics** | SNP → enhancer → TF → gene expression → craniofacial traits. Experimental validation with luciferase assays, CRISPR perturbation, and multi-omics integration. |
-| **Developmental Single-Cell Multi-Omics** | Human / mouse / cattle cross-tissue datasets covering embryonic development and lineage-resolved regulatory logic. |
-| **Medical Imaging AI** | CT radiomics + 3D deep learning models for kidney function prognosis (ΔeGFR). Integration of clinical data, shape models, and pathology. |
-| **Multi-Species Comparative Genomics** | Cross-species enhancer conservation, motif evolution, and regulatory circuitry reconstruction. |
-| **Computational Regulatory Biology** | SnapATAC2 pseudotime · motif enrichment · ABC modeling · Enformer predictions. |
+### Key Areas
 
-</div>
+- **Human Facial Genomics** — SNP → enhancer → TF → gene expression → craniofacial traits.  
+  Includes luciferase assays, CRISPR perturbation, and computational enhancer modeling.
 
----
+- **Developmental Single-Cell Multi-Omics** — human / mouse / cattle cross-tissue  
+  datasets to study embryonic development and lineage-resolved regulation.
 
-## 🚀 Featured Projects
+- **Medical Imaging AI** — CT radiomics + 3D deep learning pipelines  
+  for renal function prediction (ΔeGFR).
 
-<div class="grid cards" markdown>
+- **Comparative Genomics** — cross-species enhancer conservation, motif evolution,  
+  and regulatory logic inference.
 
-- :material-face-recognition:{ .lg .middle } **Craniofacial Regulatory Genomics**  
-  SNP fine-mapping · enhancer validation · TF logic  
-  [:octicons-arrow-right-24: View Project](projects/eye_snp.md)
-
-- :material-brain:{ .lg .middle } **CT-based Kidney Prognosis (ΔeGFR)**  
-  Deep learning + radiomics + segmentation  
-  [:octicons-arrow-right-24: Explore](projects/ctrc_kidney_dl.md)
-
-- :material-dna:{ .lg .middle } **Cross-Tissue scRNA-seq Atlas**  
-  Human / mouse / cattle lineage trajectories  
-  [:octicons-arrow-right-24: View](notes/ctrt_scrna/index.md)
-
-</div>
+- **Computational Regulatory Biology** — SnapATAC2 pseudotime, ABC modeling,  
+  Enformer predictions, motif enrichment.
 
 ---
 
-## 🧭 Quick Access
+## Featured Projects
 
-<div class="grid cards" markdown>
+### Craniofacial Regulatory Genomics
+SNP fine-mapping · enhancer validation · TF logic  
+➡️ **[View Project](projects/eye_snp.md)**
 
-- :material-flask-outline:{ .lg } **Functional Genomics**  
-  Enhancer annotation · Enformer · motif scanning  
-  [:octicons-arrow-right-24: Open](notes/ctrt_scrna/data.md)
+### CT-based Kidney Prognosis (ΔeGFR)
+Deep learning · radiomics · segmentation  
+➡️ **[Explore](projects/ctrc_kidney_dl.md)**
 
-- :material-vector-polyline-edit:{ .lg } **CT Deep Learning**  
-  Med3D · MIL · patch sampling  
-  [:octicons-arrow-right-24: Open](notes/medir_ct/model.md)
-
-- :material-book-open-page-variant:{ .lg } **Integration Pipelines**  
-  scRNA-seq · ATAC · pseudotime workflows  
-  [:octicons-arrow-right-24: Go](notes/cattle_scrna/index.md)
-
-</div>
+### Cross-Tissue scRNA-seq Atlas
+Human / mouse / cattle lineage trajectories  
+➡️ **[Open](notes/ctrt_scrna/index.md)**
 
 ---
 
-## 📘 How-to Guides (Methods)
+## Quick Access
 
-<div class="grid cards" markdown>
+- **Functional Genomics** — enhancer annotation · Enformer · motif scanning  
+  ➡️ [Open](notes/ctrt_scrna/data.md)
 
-- :material-dna:{ .lg } **Enhancer–Gene Mapping**  
-  ABC / PLAC-seq / eQTL integration  
-  [:octicons-arrow-right-24: Learn](notes/ctrt_scrna/TF.md)
+- **CT Deep Learning** — Med3D · MIL · patch sampling  
+  ➡️ [Open](notes/medir_ct/model.md)
 
-- :material-brain-cog:{ .lg } **Deep Learning Pipelines**  
-  CT preprocessing · 3D modeling · LASSO  
-  [:octicons-arrow-right-24: Learn](notes/medir_ct/preprocess.md)
-
-- :material-chart-timeline-variant:{ .lg } **Single-Cell Pseudotime**  
-  SnapATAC2 workflows for mouse face development  
-  [:octicons-arrow-right-24: Learn](notes/cattle_scrna/index.md)
-
-</div>
+- **Integration Pipelines** — scRNA / ATAC / pseudotime workflows  
+  ➡️ [Go](notes/cattle_scrna/index.md)
 
 ---
 
-## 🧪 Advanced Topics
+## Methods & How-to Guides
 
-<div class="grid cards" markdown>
+- **Enhancer–Gene Mapping** — ABC modeling · PLAC-seq · eQTL integration  
+  ➡️ [Learn](notes/ctrt_scrna/TF.md)
 
-- :material-robot:{ .lg } **Regulatory Logic Modeling**  
-  Enformer contribution scores · saturation mutagenesis
+- **Deep Learning Pipelines** — preprocessing · 3D modeling · LASSO  
+  ➡️ [Learn](notes/medir_ct/preprocess.md)
 
-- :material-city:{ .lg } **Cross-Species Enhancer Evolution**  
-  Human–mouse–cattle motif conservation
-
-- :material-puzzle-piece:{ .lg } **Multi-Modal Fusion Models**  
-  Radiomics + CT 3D + clinical metadata
-
-</div>
+- **Pseudotime & Chromatin** — SnapATAC2 workflows  
+  ➡️ [Learn](notes/cattle_scrna/index.md)
 
 ---
 
-## 🧬 Examples / Case Studies
+## Advanced Topics
 
-- 🧪 rs1408718 enhancer perturbation  
-- 🧫 DOCK9 developmental expression mapping  
-- 🐄 Cattle scRNA-seq atlas reconstruction  
-- 🧠 CT shape modeling pipeline   
-
----
-
-## 👥 Join the Community
-
-Interested in genomics × imaging × AI?  
-Check out the full research notes, datasets, and pipelines.
-
-📧 Email: **506837558@qq.com**  
-🐙 GitHub: [rosesheep5068](https://github.com/rosesheep5068)
+- **Regulatory Logic Modeling** — Enformer, contribution scores, saturation mutagenesis  
+- **Cross-Species Enhancer Evolution** — motif conservation across mammals  
+- **Multi-Modal Fusion Models** — radiomics + CT 3D + clinical metadata  
 
 ---
 
-## 🤖 For LLM / AI Tools
+## Examples & Case Studies
 
-All pages support full Markdown export and can be accessed with `.md` appended.
+- rs1408718 enhancer perturbation  
+- Developmental expression mapping  
+- Cattle scRNA-seq atlas reconstruction  
+- CT 3D shape modeling pipeline  
 
-例如：  
-`https://rosesheep5068.github.io/Mkdocs-Lamb-/notes/ctrt_scrna/data.md`
+---
+## Contact
 
+For collaborations, research discussions, or project inquiries:
+
+ **Email:** 506837558@qq.com  
+ **GitHub:** [rosesheep5068](https://github.com/rosesheep5068)
