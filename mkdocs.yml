@@ -133,20 +133,25 @@ markdown_extensions:
   - meta
   - md_in_html
   - tables
-  - toc:
-        permalink: true
 
-  # —— 代码高亮——
+  - toc:
+      permalink: true
+
+  # 代码高亮
   - pymdownx.highlight:
-        use_pygments: true
-        anchor_linenums: true
+      use_pygments: true
+      anchor_linenums: true
   - pymdownx.superfences
 
-  # 其他增强功能
+  # 卡片、折叠、Tab
   - pymdownx.details
   - pymdownx.tabbed:
-        alternate_style: true
+      alternate_style: true
 
+  # 关键：图标渲染（解决乱码）
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # =========================================
 # CSS / JS 
