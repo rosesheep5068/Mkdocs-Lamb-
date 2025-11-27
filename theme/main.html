@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+<!-- start announce block -->
+{% block announce %}
+  {% include 'announce.html' ignore missing %}
+{% endblock %}
+<!-- end announce block -->
+
+{% block content %}
+  {{ super() }}
+  {# 已移除 flarelytics 脚本，避免 404 #}
+  {% include 'mkdocs_run_deps.html' ignore missing %}
+{% endblock %}
